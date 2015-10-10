@@ -1,0 +1,26 @@
+.header{
+	color:#2345F0;
+	font-family: Tahoma;
+	font-size: 18px;
+}
+
+.sub-title{
+	font-size: 16px;
+	color:red;
+}
+
+.number{
+	color:#EE2831;
+	margin-top: 10px;
+}
+
+.main-table{
+	border: solid 1px #000;
+	border-collapse: collapse;
+	padding: 10px
+}
+
+.main-table td{ 
+	border-bottom: solid 1px #000;
+
+}
