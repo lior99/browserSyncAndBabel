@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Lior Shtivelman",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.9.11",
     "gulp-babel": "^5.2.1"
@@ -15,5 +15,14 @@
     "browser-sync": "^2.9.11",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.1"
-  }
+  },
+  "description": "testing browserSync, gulp and babel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lior99/browserSyncAndBabel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lior99/browserSyncAndBabel/issues"
+  },
+  "homepage": "https://github.com/lior99/browserSyncAndBabel"
 }
