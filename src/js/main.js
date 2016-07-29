@@ -1,29 +1,19 @@
 'use strict';
 
-// class Product{
-// 	constructor(){
+import getProduct from 'product';
 
-// 	}
-// }
 
 class Logger{
 	constructor(){
 
 	}
 
-	static writeToConsole(stringToWrite = "misc string"){
+	static log(stringToWrite = "misc string"){
 		console.log(stringToWrite);
 	}
-}
-
-class Product {
-	constructor(){
-		console.log('constructor');
-	}
 
 
 }
-
 
 
 (function(){
@@ -37,6 +27,10 @@ class Product {
 	});
 
 	elm.innerHTML = numbers;
+
+	Logger.log('from a static method....');	
+	Logger.log('finished....');
+
 })();
 
 

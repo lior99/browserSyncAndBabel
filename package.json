@@ -9,7 +9,11 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.9.11",
-    "gulp-babel": "^5.2.1"
+    "browserify": "^11.2.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-browserify": "^0.5.1",
+    "module-deps": "^3.9.1",
+    "vinyl-transform": "^1.0.0"
   },
   "dependencies": {
     "browser-sync": "^2.9.11",
